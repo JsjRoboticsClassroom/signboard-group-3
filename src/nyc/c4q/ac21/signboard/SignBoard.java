@@ -1,4 +1,5 @@
 package nyc.c4q.ac21.signboard;
+import java.util.Random;
 
 /**
  * Emulates an LED sign board.
@@ -163,3 +164,26 @@ public class SignBoard {
         terminal.moveTo(numRows, 0);
     }
 }
+
+/* public class Signboard
+    int frame = 0;
+    private void printLine(){
+        System.out.println("IIII');
+    }
+
+    private int playerHorizontalPosition(){
+        return mFrame %4;
+
+    }
+
+    private int playerVertialPostion(){
+        return mFrame /4
+
+    }
+
+    public void display(){
+        for (int index=0;index<3;index++){
+            printLing();
+        }
+        mframe++
+ */
