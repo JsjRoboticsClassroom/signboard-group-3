@@ -68,7 +68,7 @@ public class Main {
      * @param cycles
      *   The number of cycles to draw for.
      */
-    public static void flashFreshHotScene(SignBoard board, int cycles) {
+    public static void pickledIceCream(SignBoard board, int cycles) {
         Random random = new Random();
         int width = board.getWidth();
         int leftPosition = width / 4 - 12;
@@ -127,7 +127,7 @@ public class Main {
             ribbonScene(signBoard, 48);
             scrollTextScene(signBoard, "****  PICKLED ~ PICKLED* ICE CREAM  ****");
             ribbonScene(signBoard, 48);
-            flashFreshHotScene(signBoard, 8);
+            pickledIceCream(signBoard, 8);
         }
     }
 }
